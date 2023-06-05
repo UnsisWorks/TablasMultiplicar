@@ -1,0 +1,33 @@
+table {
+     width: 70%;
+     display: block;
+     margin: o auto;
+     background-color: rgb(202, 202, 202);
+     width: 25%;
+     border-collapse: collapse;
+     margin: 3rem 3rem;
+}
+body {
+     display: flex;
+     justify-content: space-around;
+}
+table tr:nth-child(odd) { /*Filas pares*/
+     background-color: darkcyan;
+}
+table tr:nth-child(even) { /*Filas impares*/
+     background-color: rgb(114, 161, 161);
+}
+table tr:hover {
+     background-color: rgb(189, 154, 57);
+     cursor: copy;
+}
+table th {
+     border: 1px solid black;
+}
+table td {
+     border: 1px solid black;
+     padding: 15px 10px;
+}
+.txt-right {
+     text-align: right;
+}
